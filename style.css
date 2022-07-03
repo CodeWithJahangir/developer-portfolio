@@ -14,6 +14,7 @@ span {
 
 section {
   display: flex;
+  margin-bottom: 100px;
 }
 #top-banner {
   background-image: url(./images/top-banner.png);
@@ -22,10 +23,11 @@ section {
 .half-width {
   width: 50%;
   padding-left: 5%;
+  padding-right: 5%;
 }
 
 .half-width img {
-  width: 80%;
+  width: 100%;
 }
 
 .hire-btn {
@@ -35,4 +37,14 @@ section {
   border-radius: 7px;
   font-weight: 700;
   color: white;
+}
+
+#dream {
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#dream p {
+  margin-right: 50px;
 }
